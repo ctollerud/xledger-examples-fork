@@ -1,7 +1,10 @@
 {
   "dbPath": "xl-webhook-example.db",
-  "graphQlToken": "<my-token>",
-  "graphQlEndpoint": "https://www.xledger.net/graphql",
-  "useThirdPartyWebhookDevelopmentTunnel": true,
-  "urls": ["https://localhost:9921", "http://localhost:9920"]
+  "graphQlToken": "REDACTED",
+  "graphQlEndpoint": "https://demo.xledger.net/graphql",
+  "useThirdPartyWebhookDevelopmentTunnel": false,
+
+
+  "___urls_corey_comment": "verified webhook is registered using item 0.  Hardcoded the server to use a different port so the item 1 url is never used.",
+  "urls": [ "https://xldg.tollsoft.io/", "http://localhost:9920" ]
 }
